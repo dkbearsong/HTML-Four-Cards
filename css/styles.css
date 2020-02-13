@@ -1,0 +1,165 @@
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 375px;
+}
+
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.65rem;
+}
+
+/* General settings */
+
+.light-weight{
+  font-weight: 100;
+}
+.light-gray{
+  color: hsl(229, 6%, 66%);
+}
+
+.bold-h1{
+  font-size: 1.75rem;
+  font-weight: black;
+}
+
+/* Header */
+
+.header{
+  line-height: 1.25;
+  margin: 20px auto 0 auto;
+  padding: 50px 0;
+}
+
+.header h3 {
+  font-size: .95rem;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  border: 0;
+  border-radius: 5px;
+  margin: 25px auto 25px auto;
+  padding: 10px;
+  position: relative;
+  text-align: left;
+  width: 375px;
+}
+
+.card-header {
+  border: 0;
+  padding: 0 60px 0 30px;
+}
+
+.card-body{
+  font-size: .90rem;
+  font-weight: lighter;
+  padding: 0 5px 150px 30px;
+}
+
+.column {
+    display: block;
+    width: 100%;
+}
+
+.icon {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 20%
+}
+
+
+.row {
+  margin: 0 -5px;
+}
+
+#cyan{
+  box-shadow: 0 -6px hsl(180, 62%, 55%),
+  3px 10px 25px 5px hsla(195, 28%, 84%, 1);
+}
+
+#red{
+  box-shadow: 0 -6px hsl(0, 78%, 62%),
+  3px 10px 25px 5px hsla(195, 28%, 84%, 1);
+}
+
+#orange{
+  box-shadow: 0 -6px hsl(34, 97%, 64%),
+  3px 10px 25px 5px hsla(195, 28%, 84%, 1);
+}
+
+#blue{
+  box-shadow: 0 -6px hsl(212, 86%, 64%),
+  3px 10px 25px 5px hsla(195, 28%, 84%, 1);
+}
+
+
+h2.card-header{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.attribution{
+  margin-top: 50px;
+}
+
+@media (min-width: 1440px){
+  body{
+    width: 1440px
+  }
+  h1{
+    font-size: 2.25rem;
+  }
+  .bold-h1{
+    font-size: 2.35rem;
+  }
+  .header{
+    width: 620px;
+  }
+  .card{
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height:
+  }
+
+  .column {
+    float: left;
+    padding: 0 10px;
+  }
+
+  .attribution{
+    margin-top: 725px;
+  }
+  .icon{
+    width: 15%;
+  }
+  .row{
+    width: 1440px;
+    margin: 0 auto 0 auto;
+    position: relative;
+  }
+  #cyan{
+    left: 0;
+    top: 170px;
+  }
+  #red{
+    top: 5px;
+    right: 504px;
+  }
+  #orange{
+    top: 350px;
+    right: 504px;
+  }
+  #blue{
+    right: 0;
+    top: 170px;
+  }
+}
